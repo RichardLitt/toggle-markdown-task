@@ -1,0 +1,25 @@
+{
+  "name": "toggle-markdown-task-with-ongoing",
+  "main": "./lib/toggle-markdown-task",
+  "version": "0.0.0",
+  "description": "Toggle completion of tasks in GitHub-flavored Markdown files (with ongoing)",
+  "keywords": [
+    "gfm",
+    "list",
+    "markdown",
+    "task",
+    "todo",
+    "active"
+  ],
+  "activationCommands": {
+    "atom-text-editor": [
+      "toggle-markdown-task:toggle"
+    ]
+  },
+  "repository": "https://github.com/richardlitt/toggle-markdown-task",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {}
+}
