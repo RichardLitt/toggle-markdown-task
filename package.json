@@ -1,7 +1,7 @@
 {
   "name": "toggle-markdown-task-with-ongoing",
   "main": "./lib/toggle-markdown-task",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Toggle completion of tasks in GitHub-flavored Markdown files (with ongoing)",
   "keywords": [
     "gfm",
@@ -23,7 +23,7 @@
   },
   "dependencies": {},
   "coordinates": [
-    45.519206,
-    -73.5789315
+    45.519199,
+    -73.578932
   ]
 }
