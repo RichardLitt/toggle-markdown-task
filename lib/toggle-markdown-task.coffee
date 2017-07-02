@@ -41,9 +41,16 @@ toggleTask = (taskText) ->
   ///
 
   taskText.replace REGEX, (_, taskPrefix, taskStatus) ->
-    if taskStatus == "[ ]"
-      "#{taskPrefix}[x]"
-    else if taskStatus == "[x]"
-      "#{taskPrefix}[~]"
-    else
-      "#{taskPrefix}[ ]"
+    switch (taskStatus) {
+      case: "[ ]"
+        "#{taskPrefix}[x]"
+        break
+      case: "[x]"
+        "#{taskPrefix}[~]"
+        break
+      case: "[~]"
+        "#{taskPrefix}[ ]"
+        break
+      default:
+        "#{taskPrefix}[ ]"
+    }
