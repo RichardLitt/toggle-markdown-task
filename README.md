@@ -1,5 +1,7 @@
 # Toggle Markdown Task: An Atom Package
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/RichardLitt/toggle-markdown-task.svg)](https://greenkeeper.io/)
+
 Shamelessly taken from https://github.com/jasonrudolph/toggle-markdown-task, but I added the option for a `[~]` checkmark, which I use to show a task is in progress.
 
 Provides a command to toggle completion of [tasks in GitHub-flavored Markdown][gfm-task-lists] files.
